@@ -25,7 +25,7 @@
 		<main class="container">
 			<section class="hero-section">
 				<h2>What Are You Eating Today?</h2>
-				<form role="search">
+				<form class="search-form" role="search">
 					<input
 						type="search"
 						name="searchRecipe"
@@ -37,38 +37,48 @@
 			</section>
 			<section class="recipes-container">
 				<!-- Future feature: Recipes will be dynamically inserted here -->
-				<article class="card-recipe">
-					<h3 class="card-title">Greek Salad</h3>
-					<a href="./assets/pages/greekSalad.html">view recipe</a>
-					<button>
-						<img src="./assets/media/save.png" alt="" />
-					</button>
+				<article class="recipe-card">
+					<h3 class="recipe-title-vertical larger-align">
+						Greek Salad
+					</h3>
+					<div class="recipe-links">
+						<a href="./assets/pages/greekSalad.html">view recipe</a>
+						<button>
+							<img src="./assets/media/save.png" alt="" />
+						</button>
+					</div>
 				</article>
-				<article class="card-recipe">
-					<h3 class="card-title">Carbonara</h3>
-					<a href="./assets/pages/carbonara.html">view recipe</a>
-					<button>
-						<img src="./assets/media/save.png" alt="" />
-					</button>
+				<article class="recipe-card">
+					<h3 class="recipe-title-vertical">Carbonara</h3>
+					<div class="recipe-links">
+						<a href="./assets/pages/carbonara.html">view recipe</a>
+						<button>
+							<img src="./assets/media/save.png" alt="" />
+						</button>
+					</div>
 				</article>
-				<article class="card-recipe">
-					<h3 class="card-title">Cookies</h3>
-					<a href="./assets/pages/cookies.html">view recipe</a>
-					<button>
-						<img src="./assets/media/save.png" alt="" />
-					</button>
+				<article class="recipe-card">
+					<h3 class="recipe-title-vertical small-align">Cookies</h3>
+					<div class="recipe-links">
+						<a href="./assets/pages/cookies.html">view recipe</a>
+						<button>
+							<img src="./assets/media/save.png" alt="" />
+						</button>
+					</div>
 				</article>
-				<article class="card-recipe">
-					<h3 class="card-title">Taiyaki</h3>
-					<a href="#">view recipe</a>
-					<button>
-						<img src="./assets/media/save.png" alt="" />
-					</button>
+				<article class="recipe-card">
+					<h3 class="recipe-title-vertical small-align">Taiyaki</h3>
+					<div class="recipe-links">
+						<a href="#">view recipe</a>
+						<button>
+							<img src="./assets/media/save.png" alt="" />
+						</button>
+					</div>
 				</article>
 			</section>
 		</main>
 		<footer class="footer">
-			<p>
+			<p class="attribution">
 				Designed and coded by
 				<a
 					href="https://github.com/gvillarroel-dev"
